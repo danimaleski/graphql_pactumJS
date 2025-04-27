@@ -1,0 +1,28 @@
+{
+  "name": "graphql_pactumjs",
+  "version": "1.0.0",
+  "description": "Testes em GraphQL com Pactum",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danimaleski/graphql_pactumJS.git"
+  },
+  "keywords": [],
+  "author": "daniella",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/danimaleski/graphql_pactumJS/issues"
+  },
+  "homepage": "https://github.com/danimaleski/graphql_pactumJS#readme",
+  "devDependencies": {
+    "mocha": "^11.1.0",
+    "pactum": "^3.7.6"
+  },
+  "dependencies": {
+    "pactum-matchers": "^1.1.7"
+  }
+}
