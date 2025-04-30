@@ -45,8 +45,7 @@ it('listagem de usuarios', async () => {
                     id: like("657b05fe31b986f1c0a7a053"),
                     email: like("cliente@ebac.art.br"),
                     profile: {
-                        //firstName: like("Cliente")
-                        firstName: custom(val => typeof val === 'string' || val === null)
+                        firstName: like(null)
                     }
                 })
             }
